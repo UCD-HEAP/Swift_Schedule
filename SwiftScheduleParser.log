@@ -1,0 +1,132 @@
+2026-10-17 19:20:02 DEBUG load_VERITAS_sources() SwiftScheduleParser.py:114: Loading VERITAS sources via database...
+2026-10-17 19:20:04 INFO load_VERITAS_sources() SwiftScheduleParser.py:167: Found 1369 VHE sources.
+2026-10-17 19:20:04 INFO get_Swift_schedule() SwiftScheduleParser.py:282: Loading Swift sources from https://www.swift.psu.edu/operations/obsSchedule.php?d=2026-10-17&a=0
+2026-10-17 19:20:06 DEBUG get_Swift_schedule_as_df() SwiftScheduleParser.py:206: Swift table headers: Begin,End,Target ID,Segment,Target Name,RA,Dec,Roll,XRT Mode,UVOT Mode,Merit,Time (s)
+2026-10-17 19:20:06 DEBUG get_Swift_schedule_as_df() SwiftScheduleParser.py:223: Dataframe from https://www.swift.psu.edu/operations/obsSchedule.php?d=2026-10-17&a=0:
+                  Begin                  End Target ID  ... UVOT Mode Merit Time (s)
+0   2026-10-16 23:55:00  2026-10-17 00:16:00     49551  ...    0x308f    40     1260
+1   2026-10-17 00:16:00  2026-10-17 00:24:00   3000469  ...    0x0009    76      480
+2   2026-10-17 00:24:00  2026-10-17 00:36:00   3113153  ...    0x30ed    40      720
+3   2026-10-17 00:36:00  2026-10-17 00:49:00   3400017  ...    0x30ed    88      780
+4   2026-10-17 00:49:00  2026-10-17 00:54:00   3113245  ...    0x0009    60      300
+..                  ...                  ...       ...  ...       ...   ...      ...
+86  2026-10-17 22:49:00  2026-10-17 22:57:00   3113249  ...    0x0009    40      480
+87  2026-10-17 22:57:00  2026-10-17 23:27:00   3400264  ...    0x30ed    90     1800
+88  2026-10-17 23:27:00  2026-10-17 23:33:00     98193  ...    0x308f    40      360
+89  2026-10-17 23:33:00  2026-10-18 00:00:00     19030  ...    0x015a    76     1620
+90  2026-10-18 00:00:00  2026-10-18 00:17:00     10910  ...    0x0009    70     1020
+
+[91 rows x 12 columns]
+2026-10-17 19:20:06 INFO get_Swift_schedule() SwiftScheduleParser.py:300: Found 91 Swift targets for 2026-10-17
+2026-10-17 19:20:06 INFO get_Swift_schedule() SwiftScheduleParser.py:282: Loading Swift sources from https://www.swift.psu.edu/operations/obsSchedule.php?d=2026-10-18&a=0
+2026-10-17 19:20:09 DEBUG get_Swift_schedule_as_df() SwiftScheduleParser.py:206: Swift table headers: Begin,End,Target ID,Segment,Target Name,RA,Dec,Roll,XRT Mode,UVOT Mode,Merit,Time (s)
+2026-10-17 19:20:09 DEBUG get_Swift_schedule_as_df() SwiftScheduleParser.py:223: Dataframe from https://www.swift.psu.edu/operations/obsSchedule.php?d=2026-10-18&a=0:
+                  Begin                  End Target ID  ... UVOT Mode Merit Time (s)
+0   2026-10-17 23:33:00  2026-10-18 00:00:00     19030  ...    0x015a    76     1620
+1   2026-10-18 00:00:00  2026-10-18 00:17:00     10910  ...    0x0009    70     1020
+2   2026-10-18 00:17:00  2026-10-18 00:30:00     98177  ...    0x308f    40      780
+3   2026-10-18 00:30:00  2026-10-18 00:50:00     15413  ...    0x30ed    90     1200
+4   2026-10-18 00:50:00  2026-10-18 01:01:00   3112732  ...    0x30ed    40      660
+..                  ...                  ...       ...  ...       ...   ...      ...
+89  2026-10-18 22:58:00  2026-10-18 23:05:00   3112580  ...    0x0009    61      420
+90  2026-10-18 23:05:00  2026-10-18 23:13:00   3000477  ...    0x015a    76      480
+91  2026-10-18 23:13:00  2026-10-18 23:33:00   3113389  ...    0x0009    60     1200
+92  2026-10-18 23:33:00  2026-10-18 23:53:00   3112845  ...    0x30ed    60     1200
+93  2026-10-18 23:53:00  2026-10-19 00:01:00   3113347  ...    0x0009    40      480
+
+[94 rows x 12 columns]
+2026-10-17 19:20:09 INFO get_Swift_schedule() SwiftScheduleParser.py:300: Found 185 Swift targets for 2026-10-18
+2026-10-17 19:20:09 INFO get_Swift_schedule() SwiftScheduleParser.py:282: Loading Swift sources from https://www.swift.psu.edu/operations/obsSchedule.php?d=2026-10-19&a=0
+2026-10-17 19:20:13 DEBUG get_Swift_schedule_as_df() SwiftScheduleParser.py:206: Swift table headers: Begin,End,Target ID,Segment,Target Name,RA,Dec,Roll,XRT Mode,UVOT Mode,Merit,Time (s)
+2026-10-17 19:20:13 DEBUG get_Swift_schedule_as_df() SwiftScheduleParser.py:223: Dataframe from https://www.swift.psu.edu/operations/obsSchedule.php?d=2026-10-19&a=0:
+                  Begin                  End Target ID  ... UVOT Mode Merit Time (s)
+0   2026-10-18 23:53:00  2026-10-19 00:01:00   3113347  ...    0x0009    40      480
+1   2026-10-19 00:01:00  2026-10-19 00:18:00     98343  ...    0x0009    88     1020
+2   2026-10-19 00:18:00  2026-10-19 00:26:00     98177  ...    0x308f    40      480
+3   2026-10-19 00:26:00  2026-10-19 00:37:00   3113249  ...    0x0009    40      660
+4   2026-10-19 00:37:00  2026-10-19 00:50:00   3400017  ...    0x30ed    88      780
+..                  ...                  ...       ...  ...       ...   ...      ...
+92  2026-10-19 22:30:00  2026-10-19 23:00:00   3400263  ...    0x30ed    90     1800
+93  2026-10-19 23:00:00  2026-10-19 23:20:00   3112580  ...    0x0009    61     1200
+94  2026-10-19 23:20:00  2026-10-19 23:30:00   3113389  ...    0x0009    60      600
+95  2026-10-19 23:30:00  2026-10-19 23:43:00   3112810  ...    0x30ed    40      780
+96  2026-10-19 23:43:00  2026-10-20 00:00:00   3113346  ...    0x0009    40     1020
+
+[97 rows x 12 columns]
+2026-10-17 19:20:13 INFO get_Swift_schedule() SwiftScheduleParser.py:300: Found 282 Swift targets for 2026-10-19
+2026-10-17 19:20:13 INFO get_Swift_schedule() SwiftScheduleParser.py:282: Loading Swift sources from https://www.swift.psu.edu/operations/obsSchedule.php?d=2026-10-20&a=0
+2026-10-17 19:20:16 DEBUG get_Swift_schedule_as_df() SwiftScheduleParser.py:206: Swift table headers: Begin,End,Target ID,Segment,Target Name,RA,Dec,Roll,XRT Mode,UVOT Mode,Merit,Time (s)
+2026-10-17 19:20:16 DEBUG get_Swift_schedule_as_df() SwiftScheduleParser.py:223: Dataframe from https://www.swift.psu.edu/operations/obsSchedule.php?d=2026-10-20&a=0:
+                 Begin                  End Target ID  ... UVOT Mode Merit Time (s)
+0  2026-10-19 23:43:00  2026-10-20 00:00:00   3113346  ...    0x0009    40     1020
+
+[1 rows x 12 columns]
+2026-10-17 19:20:16 INFO get_Swift_schedule() SwiftScheduleParser.py:300: Found 283 Swift targets for 2026-10-20
+2026-10-17 19:20:16 INFO match_sources() SwiftScheduleParser.py:344: Matched 16 Swift targets within 0.1 deg of a VERITAS source.
+2026-10-17 19:20:16 DEBUG match_sources() SwiftScheduleParser.py:359: Swift observation: NGC_1275, 2026-10-17 00:36:00 UT to 2026-10-17 00:49:00 UT
+2026-10-17 19:20:16 DEBUG match_sources() SwiftScheduleParser.py:359: Swift observation: LSXPS J232234.4+343723, 2026-10-17 14:23:00 UT to 2026-10-17 14:28:00 UT
+2026-10-17 19:20:16 DEBUG match_sources() SwiftScheduleParser.py:359: Swift observation: NGC_1275, 2026-10-17 14:28:00 UT to 2026-10-17 14:41:00 UT
+2026-10-17 19:20:16 DEBUG match_sources() SwiftScheduleParser.py:359: Swift observation: NGC_1275, 2026-10-17 17:28:00 UT to 2026-10-17 17:41:00 UT
+2026-10-17 19:20:16 DEBUG match_sources() SwiftScheduleParser.py:359: Swift observation: 1ES 2344+514, 2026-10-18 00:30:00 UT to 2026-10-18 00:50:00 UT
+2026-10-17 19:20:16 DEBUG match_sources() SwiftScheduleParser.py:359: Swift observation: 1ES 2344+514, 2026-10-18 01:58:00 UT to 2026-10-18 02:28:00 UT
+2026-10-17 19:20:16 DEBUG match_sources() SwiftScheduleParser.py:359: Swift observation: NGC_1275, 2026-10-18 03:37:00 UT to 2026-10-18 03:50:00 UT
+2026-10-17 19:20:16 DEBUG match_sources() SwiftScheduleParser.py:359: Swift observation: GALACTIC CENTER, 2026-10-18 07:31:00 UT to 2026-10-18 07:48:00 UT
+2026-10-17 19:20:16 DEBUG match_sources() SwiftScheduleParser.py:359: Swift observation: GALACTIC CENTER, 2026-10-18 07:31:00 UT to 2026-10-18 07:48:00 UT
+2026-10-17 19:20:16 DEBUG match_sources() SwiftScheduleParser.py:359: Swift observation: NGC_1275, 2026-10-18 08:28:00 UT to 2026-10-18 08:41:00 UT
+2026-10-17 19:20:16 DEBUG match_sources() SwiftScheduleParser.py:359: Swift observation: NGC_1275, 2026-10-18 18:58:00 UT to 2026-10-18 19:11:00 UT
+2026-10-17 19:20:16 DEBUG match_sources() SwiftScheduleParser.py:359: Swift observation: GALACTIC CENTER, 2026-10-19 00:01:00 UT to 2026-10-19 00:18:00 UT
+2026-10-17 19:20:16 DEBUG match_sources() SwiftScheduleParser.py:359: Swift observation: GALACTIC CENTER, 2026-10-19 00:01:00 UT to 2026-10-19 00:18:00 UT
+2026-10-17 19:20:16 DEBUG match_sources() SwiftScheduleParser.py:359: Swift observation: NGC_1275, 2026-10-19 00:37:00 UT to 2026-10-19 00:50:00 UT
+2026-10-17 19:20:16 DEBUG match_sources() SwiftScheduleParser.py:359: Swift observation: NGC_1275, 2026-10-19 09:57:00 UT to 2026-10-19 10:07:00 UT
+2026-10-17 19:20:16 DEBUG match_sources() SwiftScheduleParser.py:359: Swift observation: NGC_1275, 2026-10-19 17:27:00 UT to 2026-10-19 17:40:00 UT
+2026-10-17 19:20:16 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:383: Processing Swift source: NGC_1275
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:433: Swift observation 2026-10-17 00:36:00 2026-10-17 00:49:00 MST: 2026-10-16 17:36 2026-10-16 17:49
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:383: Processing Swift source: LSXPS J232234.4+343723
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:433: Swift observation 2026-10-17 14:23:00 2026-10-17 14:28:00 MST: 2026-10-17 07:23 2026-10-17 07:28
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:383: Processing Swift source: NGC_1275
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:433: Swift observation 2026-10-17 14:28:00 2026-10-17 14:41:00 MST: 2026-10-17 07:28 2026-10-17 07:41
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:383: Processing Swift source: NGC_1275
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:433: Swift observation 2026-10-17 17:28:00 2026-10-17 17:41:00 MST: 2026-10-17 10:28 2026-10-17 10:41
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:383: Processing Swift source: 1ES 2344+514
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:433: Swift observation 2026-10-18 00:30:00 2026-10-18 00:50:00 MST: 2026-10-17 17:30 2026-10-17 17:50
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:383: Processing Swift source: 1ES 2344+514
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:433: Swift observation 2026-10-18 01:58:00 2026-10-18 02:28:00 MST: 2026-10-17 18:58 2026-10-17 19:28
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:383: Processing Swift source: NGC_1275
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:433: Swift observation 2026-10-18 03:37:00 2026-10-18 03:50:00 MST: 2026-10-17 20:37 2026-10-17 20:50
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:383: Processing Swift source: GALACTIC CENTER
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:433: Swift observation 2026-10-18 07:31:00 2026-10-18 07:48:00 MST: 2026-10-18 00:31 2026-10-18 00:48
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:383: Processing Swift source: GALACTIC CENTER
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:433: Swift observation 2026-10-18 07:31:00 2026-10-18 07:48:00 MST: 2026-10-18 00:31 2026-10-18 00:48
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:383: Processing Swift source: NGC_1275
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:433: Swift observation 2026-10-18 08:28:00 2026-10-18 08:41:00 MST: 2026-10-18 01:28 2026-10-18 01:41
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:383: Processing Swift source: NGC_1275
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:433: Swift observation 2026-10-18 18:58:00 2026-10-18 19:11:00 MST: 2026-10-18 11:58 2026-10-18 12:11
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:383: Processing Swift source: GALACTIC CENTER
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:433: Swift observation 2026-10-19 00:01:00 2026-10-19 00:18:00 MST: 2026-10-18 17:01 2026-10-18 17:18
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:383: Processing Swift source: GALACTIC CENTER
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:433: Swift observation 2026-10-19 00:01:00 2026-10-19 00:18:00 MST: 2026-10-18 17:01 2026-10-18 17:18
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:383: Processing Swift source: NGC_1275
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:433: Swift observation 2026-10-19 00:37:00 2026-10-19 00:50:00 MST: 2026-10-18 17:37 2026-10-18 17:50
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:383: Processing Swift source: NGC_1275
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:433: Swift observation 2026-10-19 09:57:00 2026-10-19 10:07:00 MST: 2026-10-19 02:57 2026-10-19 03:07
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:383: Processing Swift source: NGC_1275
+2026-10-17 19:20:17 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:433: Swift observation 2026-10-19 17:27:00 2026-10-19 17:40:00 MST: 2026-10-19 10:27 2026-10-19 10:40
+2026-10-17 19:20:17 INFO get_visible_Swift_observations() SwiftScheduleParser.py:452: Found 16 Swift targets observations during VERITAS dark time
+2026-10-17 19:20:17 DEBUG print_to_HTML() SwiftScheduleParser.py:463: Saving to index.html
+2026-10-17 19:20:17 DEBUG print_HTML_table() SwiftScheduleParser.py:559: Processing NGC_1275
+2026-10-17 19:20:17 DEBUG print_HTML_table() SwiftScheduleParser.py:559: Processing LSXPS J232234.4+343723
+2026-10-17 19:20:17 DEBUG print_HTML_table() SwiftScheduleParser.py:559: Processing NGC_1275
+2026-10-17 19:20:17 DEBUG print_HTML_table() SwiftScheduleParser.py:559: Processing NGC_1275
+2026-10-17 19:20:17 DEBUG print_HTML_table() SwiftScheduleParser.py:559: Processing 1ES 2344+514
+2026-10-17 19:20:17 DEBUG print_HTML_table() SwiftScheduleParser.py:559: Processing 1ES 2344+514
+2026-10-17 19:20:17 DEBUG print_HTML_table() SwiftScheduleParser.py:559: Processing NGC_1275
+2026-10-17 19:20:17 DEBUG print_HTML_table() SwiftScheduleParser.py:559: Processing GALACTIC CENTER
+2026-10-17 19:20:17 DEBUG print_HTML_table() SwiftScheduleParser.py:559: Processing GALACTIC CENTER
+2026-10-17 19:20:17 DEBUG print_HTML_table() SwiftScheduleParser.py:559: Processing NGC_1275
+2026-10-17 19:20:17 DEBUG print_HTML_table() SwiftScheduleParser.py:559: Processing NGC_1275
+2026-10-17 19:20:17 DEBUG print_HTML_table() SwiftScheduleParser.py:559: Processing GALACTIC CENTER
+2026-10-17 19:20:17 DEBUG print_HTML_table() SwiftScheduleParser.py:559: Processing GALACTIC CENTER
+2026-10-17 19:20:17 DEBUG print_HTML_table() SwiftScheduleParser.py:559: Processing NGC_1275
+2026-10-17 19:20:17 DEBUG print_HTML_table() SwiftScheduleParser.py:559: Processing NGC_1275
+2026-10-17 19:20:17 DEBUG print_HTML_table() SwiftScheduleParser.py:559: Processing NGC_1275
+2026-10-17 19:20:17 INFO print_to_HTML() SwiftScheduleParser.py:535: Wrote index.html

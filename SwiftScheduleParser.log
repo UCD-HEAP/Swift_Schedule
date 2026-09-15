@@ -1,0 +1,23 @@
+2026-10-24 00:50:02 DEBUG load_VERITAS_sources() SwiftScheduleParser.py:114: Loading VERITAS sources via database...
+2026-10-24 00:50:04 INFO load_VERITAS_sources() SwiftScheduleParser.py:167: Found 1372 VHE sources.
+2026-10-24 00:50:04 INFO get_Swift_schedule() SwiftScheduleParser.py:282: Loading Swift sources from https://www.swift.psu.edu/operations/obsSchedule.php?d=2026-10-23&a=0
+2026-10-24 00:50:06 DEBUG get_Swift_schedule_as_df() SwiftScheduleParser.py:206: Swift table headers: Begin,End,Target ID,Segment,Target Name,RA,Dec,Roll,XRT Mode,UVOT Mode,Merit,Time (s)
+2026-10-24 00:50:06 DEBUG get_Swift_schedule_as_df() SwiftScheduleParser.py:223: Dataframe from https://www.swift.psu.edu/operations/obsSchedule.php?d=2026-10-23&a=0:
+                 Begin                  End Target ID  ... UVOT Mode Merit Time (s)
+0  2026-10-22 23:34:00  2026-10-23 00:00:00   3112873  ...    0x30ed    40     1560
+
+[1 rows x 12 columns]
+2026-10-24 00:50:06 INFO get_Swift_schedule() SwiftScheduleParser.py:300: Found 1 Swift targets for 2026-10-23
+2026-10-24 00:50:06 INFO get_Swift_schedule() SwiftScheduleParser.py:282: Loading Swift sources from https://www.swift.psu.edu/operations/obsSchedule.php?d=2026-10-24&a=0
+2026-10-24 00:50:18 CRITICAL get_Swift_schedule() SwiftScheduleParser.py:297: Error while connecting to website: https://www.swift.psu.edu/operations/obsSchedule.php?d=2026-10-24&a=0
+2026-10-24 00:50:18 INFO get_Swift_schedule() SwiftScheduleParser.py:300: Found 1 Swift targets for 2026-10-24
+2026-10-24 00:50:18 INFO get_Swift_schedule() SwiftScheduleParser.py:282: Loading Swift sources from https://www.swift.psu.edu/operations/obsSchedule.php?d=2026-10-25&a=0
+2026-10-24 00:50:30 CRITICAL get_Swift_schedule() SwiftScheduleParser.py:297: Error while connecting to website: https://www.swift.psu.edu/operations/obsSchedule.php?d=2026-10-25&a=0
+2026-10-24 00:50:30 INFO get_Swift_schedule() SwiftScheduleParser.py:300: Found 1 Swift targets for 2026-10-25
+2026-10-24 00:50:30 INFO get_Swift_schedule() SwiftScheduleParser.py:282: Loading Swift sources from https://www.swift.psu.edu/operations/obsSchedule.php?d=2026-10-26&a=0
+2026-10-24 00:50:42 CRITICAL get_Swift_schedule() SwiftScheduleParser.py:297: Error while connecting to website: https://www.swift.psu.edu/operations/obsSchedule.php?d=2026-10-26&a=0
+2026-10-24 00:50:42 INFO get_Swift_schedule() SwiftScheduleParser.py:300: Found 1 Swift targets for 2026-10-26
+2026-10-24 00:50:42 INFO match_sources() SwiftScheduleParser.py:344: Matched 0 Swift targets within 0.1 deg of a VERITAS source.
+2026-10-24 00:50:42 DEBUG get_visible_Swift_observations() SwiftScheduleParser.py:371: No Swift matched sources available
+2026-10-24 00:50:42 DEBUG print_to_HTML() SwiftScheduleParser.py:463: Saving to index.html
+2026-10-24 00:50:42 INFO print_to_HTML() SwiftScheduleParser.py:535: Wrote index.html

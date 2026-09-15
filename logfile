@@ -1,0 +1,2998 @@
+/bin/sh: /Users/veritas/Git/SwiftScheduleParser/deploy-swiftsched-githubio.sh: Permission denied
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Traceback (most recent call last):
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 613, in connect
+    sock = socket.create_connection(
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/veritas/anaconda3/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 117, in load_VERITAS_sources
+    conn = pymysql.connect(host = "romulus.ucsc.edu",
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/veritas/anaconda3/lib/python3.10/site-packages/pymysql/connections.py", line 664, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'romulus.ucsc.edu' ([Errno 8] nodename nor servname provided, or not known)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 704, in <module>
+    parser.load_VERITAS_sources()
+  File "/Users/veritas/Git/SwiftScheduleParser/SwiftScheduleParser.py", line 124, in load_VERITAS_sources
+    raise ConnectionError("Error while connecting to database")
+ConnectionError: Error while connecting to database
+Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
